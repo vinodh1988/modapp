@@ -1,0 +1,77 @@
+.pic{
+    width: 27%;
+    height: 100px;
+    float: left;
+    margin-right:20px;
+    padding:10px;
+}
+
+.pic img{
+    height: 100%;
+    width: 100%;
+    box-shadow: 10px 10px 10px white;
+}
+
+.name{
+    font-family: impact;
+    font-size: 34px;
+    color:black;
+    font-style: italic;
+    font-weight:bolder;
+}
+
+.name span{
+    color: red;
+}
+
+.caption{
+    font-size: 14px;
+    font-family: impact;
+}
+.course-slider{
+    background-color:#fffffb;
+    width:70%;
+    height: 300px;
+    float:left;
+    
+}
+.content{
+    overflow: hidden;
+    width: 70%;
+    margin-bottom:10px;
+}
+h4{
+    font-family:impact;
+    text-align:center;
+    color: rgb(87, 83, 83);
+    padding: 3px;
+}
+.contact,.oracle{
+    width:100%;
+    height: 100px;
+    box-shadow: 2px 2px 5px rgb(253, 253, 253);
+    background-color: rgb(253, 253, 253);
+    margin-top: 15px;
+}
+
+.oracle{
+    height: 60px;
+    background-color: none;
+}
+
+.oracle img{
+    height: 100%;
+    width: 100%;
+}
+
+.phone{
+    color: darkred;
+    font-size: 14px;
+    text-align:center;
+    font-family: impact;
+}
+
+.phone img{
+    height: 25px;
+    width: 25px;
+}

@@ -1,0 +1,58 @@
+.chat-box{
+    position: fixed;
+    right: 2%;
+    bottom: 0%;
+    width: 20%;
+    z-index: 3;
+    background-color: #FEFAFB;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.head{
+    height: 40px;
+    padding: 5px;
+    width: 100%;
+    color: white;
+    background-color: #EE4008;
+    font-size: 14px;
+    font-weight: bolder;
+    position:relative;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.chatbody{
+    height: 300px;
+    width:100%;
+    position: relative;
+
+}
+.msg-box{
+    position:relative;
+    height: 200px;
+    width: 100%;
+    overflow-y: scroll;
+}
+.type-area{
+    height: 100px;
+    width: 100%;
+    text-align: right;
+}
+textarea{
+    height: 60px;
+    width: 100%;
+    resize: none;
+}
+
+
+.you{
+    padding: 5px;
+    margin: 5px;
+    background-color: #FAE5E1;
+    width: 70%;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 10px;
+    
+}
+

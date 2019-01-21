@@ -1,0 +1,16 @@
+<ul class="main">
+   <li *ngFor="let n of topics; let x=index">
+    <div class="cbox"> 
+       {{n.topic}}
+    <img src="../../assets/images/{{n.expand}}.png" align="right"
+    (click)="toggleValue(x)">
+      </div>
+         <ul class="sub" *ngIf="n.status">
+             <li *ngFor="let m of n.subTopic">
+ <img src="../../assets/images/tick.png" >
+                 
+              {{m.topic}}
+             </li>
+         </ul>
+   </li>
+</ul>

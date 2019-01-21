@@ -1,0 +1,40 @@
+.infobox{
+    width: 30.9%;
+    height:400px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.info-image{
+    height:100px;
+    width: 100%;
+}
+
+.info-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.info-title{
+    font-size: 20px;
+    color: rgb(195, 37, 37);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.info-item{
+    font-size: 16px;
+    margin:3px;
+    font-family: Arial Narrow;
+    color: rgb(95, 95, 99);
+    font-weight: bold;
+}
+
+.info-item img{
+    height: 12px;
+    width: 12px;
+}

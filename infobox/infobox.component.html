@@ -1,0 +1,13 @@
+<div class="infobox">
+   <div class="info-image">
+       <img src="../../assets/images/{{information.image}}">
+   </div>
+   <div class="info-title">
+       {{information.title}}
+   </div>
+   <hr>
+  <div *ngFor="let n of information.points" class="info-item">
+      <img src="../../assets/images/tick.png">
+      {{n}}
+    </div>
+  </div>

@@ -1,0 +1,22 @@
+<div class="chat-box">
+  <div class="head" (click)="changeState()">
+    <span [style.fontSize]="'20px'" [style.padding]="'3px'" 
+    class="glyphicon glyphicon-comment"></span>
+     &nbsp;&nbsp;Chat with us{{this.signal}}
+  </div>
+  <div class="chatbody" *ngIf="visible">
+    <div #scrollMe class="msg-box">
+       <div *ngFor="let n of msgs">
+          <div [ngClass]="n.class">
+            {{n.message}}
+          </div>
+       </div>
+       <div >{{temp}} is typing </div>
+    </div>
+    <div class="type-area" >
+      <textarea name="current" [(ngModel)]="current"></textarea>
+      <button class="btn btn-danger" (click)="addMessage()">send</button>
+    </div>
+  </div>
+
+</div>

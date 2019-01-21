@@ -1,0 +1,19 @@
+<div id="page">
+<isql-header></isql-header>
+<div class="wrap container-fluid">
+    <app-courseslider></app-courseslider>
+    <app-content></app-content>
+
+   
+<div class="row coursegrid" >
+
+   <div class="col-md-4 col-sm-6" *ngFor="let n of courselist"> 
+     <course-box [url]="n.logo" [name]="n.name"></course-box>
+   </div>  
+</div>
+
+<footer></footer>
+<chatbox></chatbox>
+<app-enquiry></app-enquiry>
+</div>
+</div>

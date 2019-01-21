@@ -1,0 +1,22 @@
+
+.head-logo{
+    height: 150px;
+    /*border-bottom: 2px solid #F14613;*/
+
+}
+
+
+.logo img{
+    height: 70%;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.contact{
+    margin-top: 30px;
+    /*border:2px solid #F14613;*/
+    color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}

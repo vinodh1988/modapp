@@ -1,0 +1,27 @@
+.cunit{
+    height: 92px;
+    width:15%;
+    padding: 3px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom:10px;
+}
+
+.cunit img{
+  height: 100%;
+  width:100%;
+}
+
+.cpic{
+    height:70%;
+    width: 100%;
+
+}
+
+.cname{
+    height: 30%;
+    width: 100%;
+    text-align:center;
+    font-weight: bolder;
+}
